@@ -1,10 +1,7 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [], // express router 같은 존재
+  providers: [],
 })
 export class AppModule {}
